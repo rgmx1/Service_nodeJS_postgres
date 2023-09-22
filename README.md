@@ -49,7 +49,7 @@ URL http://localhost:5000/api/user
 
  <details><summary>.</summary>
 
-URL http://localhost:5000/api/user
+URL http://localhost:5000/api/user/{id}
 
 Тело запроса отсутствует
 
@@ -77,6 +77,6 @@ Body
 
  <details><summary>.</summary>
 
-URL http://localhost:5000/api/user
+URL http://localhost:5000/api/user/{id}
 
 Тело запроса отсутствует
