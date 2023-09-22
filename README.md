@@ -81,4 +81,6 @@ URL
 
 Тело запроса отсутствует
 
-В файлах "database.sql", "db.js" описание подключения к Postgre.
+</details>
+
+### В файлах "database.sql", "db.js" описание подключения к Postgre.
