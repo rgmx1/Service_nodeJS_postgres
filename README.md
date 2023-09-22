@@ -24,6 +24,8 @@ DELETE  http://localhost:5000/api/user/{id}  - Удаление пользова
 
  <details><summary>.</summary>
 
+Body
+
 ```JSON
 {
    "name": "Polina",
@@ -56,6 +58,8 @@ URL http://localhost:5000/api/user
 ### PUT
 
  <details><summary>.</summary>
+
+Body
 
 ```JSON
 {
