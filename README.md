@@ -19,3 +19,14 @@ GET    /api/user/{id}   - Вывод конкретного пользовате
 PUT    /api/user        - Изменение пользователя
 DELETE /api/user/{id}   - Удаление пользователя по id
 ```
+
+### Операция /POST /api/user
+
+ <details><summary>Пример</summary>
+
+```JSON
+{
+   "name": "Polina",
+   "surname": "Alexeivna"
+}
+```
