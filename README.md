@@ -30,3 +30,49 @@ DELETE /api/user/{id}   - Удаление пользователя по id
    "surname": "Alexeivna"
 }
 ```
+
+</details>
+
+### Операция /GET /api/user
+
+ <details><summary>Пример</summary>
+
+URL http://localhost:5000/api/user
+
+Тело запроса отсутствует
+
+</details>
+
+### Операция /GET /api/user/{id}
+
+ <details><summary>Пример</summary>
+
+URL http://localhost:5000/api/user
+
+Тело запроса отсутствует
+
+</details>
+
+### Операция /PUT /api/user
+
+ <details><summary>Пример</summary>
+
+```JSON
+{
+   "name": "John",
+    "surname": "Mactavish",
+    "id": 5
+}
+```
+
+Изменение происходит по id в теле запроса
+
+</details>
+
+### Операция /DELETE /api/user/{id}
+
+ <details><summary>Пример</summary>
+
+URL http://localhost:5000/api/user
+
+Тело запроса отсутствует
