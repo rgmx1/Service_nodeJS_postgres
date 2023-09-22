@@ -20,7 +20,7 @@ PUT    /api/user        - Изменение пользователя
 DELETE /api/user/{id}   - Удаление пользователя по id
 ```
 
-### Операция /POST /api/user
+### Операция POST /api/user
 
  <details><summary>Пример</summary>
 
@@ -33,7 +33,7 @@ DELETE /api/user/{id}   - Удаление пользователя по id
 
 </details>
 
-### Операция /GET /api/user
+### Операция GET /api/user
 
  <details><summary>Пример</summary>
 
@@ -43,7 +43,7 @@ URL http://localhost:5000/api/user
 
 </details>
 
-### Операция /GET /api/user/{id}
+### Операция GET /api/user/{id}
 
  <details><summary>Пример</summary>
 
@@ -53,7 +53,7 @@ URL http://localhost:5000/api/user
 
 </details>
 
-### Операция /PUT /api/user
+### Операция PUT /api/user
 
  <details><summary>Пример</summary>
 
@@ -69,7 +69,7 @@ URL http://localhost:5000/api/user
 
 </details>
 
-### Операция /DELETE /api/user/{id}
+### Операция DELETE /api/user/{id}
 
  <details><summary>Пример</summary>
 
