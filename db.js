@@ -8,3 +8,4 @@ const pool = new Pool({
 });
 
 module.exports = pool;
+// модуль для подключения к postgres

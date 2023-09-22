@@ -8,21 +8,21 @@
 
 Сервис запускается по адресу: http://localhost:5000.
 
-## Описание API
+## Описание API с примерами
 
 Веб-сервис реализует следующие операции:
 
 ```
-POST   /api/user        - Cоздание пользователя
-GET    /api/user        - Вывод всех пользователей которые есть в базе даных
-GET    /api/user/{id}   - Вывод конкретного пользователя по id
-PUT    /api/user        - Изменение пользователя
-DELETE /api/user/{id}   - Удаление пользователя по id
+POST    http://localhost:5000/api/user       - Cоздание пользователя
+GET     http://localhost:5000/api/user       - Вывод всех пользователей которые есть в базе даных
+GET     http://localhost:5000/api/user/{id}  - Вывод конкретного пользователя по id
+PUT     http://localhost:5000/api/user       - Изменение пользователя
+DELETE  http://localhost:5000/api/user/{id}  - Удаление пользователя по id
 ```
 
-### Операция POST /api/user
+### POST
 
- <details><summary>Пример</summary>
+ <details><summary>.</summary>
 
 ```JSON
 {
@@ -33,19 +33,9 @@ DELETE /api/user/{id}   - Удаление пользователя по id
 
 </details>
 
-### Операция GET /api/user
+### GET
 
- <details><summary>Пример</summary>
-
-URL http://localhost:5000/api/user
-
-Тело запроса отсутствует
-
-</details>
-
-### Операция GET /api/user/{id}
-
- <details><summary>Пример</summary>
+ <details><summary>.</summary>
 
 URL http://localhost:5000/api/user
 
@@ -53,9 +43,19 @@ URL http://localhost:5000/api/user
 
 </details>
 
-### Операция PUT /api/user
+### GET
 
- <details><summary>Пример</summary>
+ <details><summary>.</summary>
+
+URL http://localhost:5000/api/user
+
+Тело запроса отсутствует
+
+</details>
+
+### PUT
+
+ <details><summary>.</summary>
 
 ```JSON
 {
@@ -69,9 +69,9 @@ URL http://localhost:5000/api/user
 
 </details>
 
-### Операция DELETE /api/user/{id}
+### DELETE
 
- <details><summary>Пример</summary>
+ <details><summary>.</summary>
 
 URL http://localhost:5000/api/user
 
