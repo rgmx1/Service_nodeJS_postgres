@@ -39,7 +39,7 @@ Body
 
  <details><summary>.</summary>
 
-URL http://localhost:5000/api/user
+URL
 
 Тело запроса отсутствует
 
@@ -49,7 +49,7 @@ URL http://localhost:5000/api/user
 
  <details><summary>.</summary>
 
-URL http://localhost:5000/api/user/{id}
+URL
 
 Тело запроса отсутствует
 
@@ -77,6 +77,8 @@ Body
 
  <details><summary>.</summary>
 
-URL http://localhost:5000/api/user/{id}
+URL
 
 Тело запроса отсутствует
+
+В файлах "database.sql", "db.js" описание подключения к Postgre.
